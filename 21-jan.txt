@@ -1,0 +1,40 @@
+1. Iterable is the most parent type
+								Iterable
+								
+								collection
+							List        Set       sortedSet    Queue          
+							ArrayList    HashSet
+							LinkedList	 LinkedHashSet
+							
+List : is an indexed based, Set is not an index based
+List can have duplicate values, set cannot have duplicates
+List is an orderedlist, set is an unordered
+
+
+
+2. Implementations of Map: Map, SortedMap
+12. Yes we can have more than one spring configuration file,By giving the annotations on top of the calss, like @Componenet for classes and @configiration for configuration files,@Bean for properties
+
+10. Dependency injection is getting the referance of another class,can be achived, if there are one interface and one class, taking the interface class as a property in another class.
+
+public interface Game{
+
+}
+
+public class MobileGame{
+
+private Game game;
+
+}
+
+15. componentScan - annotation used to check the packages
+@Component - used in configuration of spring to scan the packages 
+
+
+17. maven is project management tool,it is based on POM, it used to build project,dependency and documentation
+quarkus - used to perform validation
+
+
+14. ApplicationContext-interface to provide configuration for an application, it is only read operation
+BeanFactory-interface for accessing Spring bean container
+
